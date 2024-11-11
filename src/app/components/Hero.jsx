@@ -9,7 +9,7 @@ export default function Hero() {
       </div>
 
       <div className={styles.heroContent}>
-        <h1 className={styles.heroTitle}>Hi, I'm Aliza Naeem</h1>
+        <h1 className={styles.heroTitle}>Hi, I&apos;'m Aliza Naeem</h1>
         <p className={styles.heroSubtitle}>Frontend Developer</p>
         <p className={styles.heroDescription}>
           I build user-friendly and responsive websites using the latest web technologies. Passionate about making web experiences better!
