@@ -1,4 +1,5 @@
 import styles from './Projects.module.css';
+import Image from 'next/image';  // Import the Next.js Image component
 
 export default function Projects() {
   return (
@@ -7,10 +8,12 @@ export default function Projects() {
       <div className={styles.projectGrid}>
         {/* Project 1 - Simple Calculator */}
         <div className={styles.projectCard}>
-          <img 
+          <Image
             src="/simple-calculator.png" 
             alt="Simple Calculator" 
             className={styles.projectImage} 
+            width={500}   // Provide width and height for optimization
+            height={300}  // Provide width and height for optimization
           />
           <div className={styles.projectInfo}>
             <h3>Simple Calculator</h3>
@@ -20,10 +23,12 @@ export default function Projects() {
 
         {/* Project 2 - Guessing Game */}
         <div className={styles.projectCard}>
-          <img 
+          <Image
             src="/guessing-game.png" 
             alt="Guessing Game" 
             className={styles.projectImage} 
+            width={500}   // Provide width and height for optimization
+            height={300}  // Provide width and height for optimization
           />
           <div className={styles.projectInfo}>
             <h3>Guessing Game</h3>
@@ -33,10 +38,12 @@ export default function Projects() {
 
         {/* Project 3 - ATM Machine */}
         <div className={styles.projectCard}>
-          <img 
+          <Image 
             src="/atm-machine2.png" 
             alt="ATM Machine" 
             className={styles.projectImage} 
+            width={500}   // Provide width and height for optimization
+            height={300}  // Provide width and height for optimization
           />
           <div className={styles.projectInfo}>
             <h3>ATM Machine</h3>
@@ -46,10 +53,12 @@ export default function Projects() {
 
         {/* Project 4 - Table Generator */}
         <div className={styles.projectCard}>
-          <img 
+          <Image 
             src="/table-generted.jpg" 
             alt="Table Generator" 
             className={styles.projectImage} 
+            width={500}   // Provide width and height for optimization
+            height={300}  // Provide width and height for optimization
           />
           <div className={styles.projectInfo}>
             <h3>Table Generator CLI</h3>
@@ -59,10 +68,12 @@ export default function Projects() {
 
         {/* Project 5 - Pizza Website */}
         <div className={styles.projectCard}>
-          <img 
+          <Image
             src="/pizza-website.jpg" 
             alt="Pizza Website" 
             className={styles.projectImage} 
+            width={500}   // Provide width and height for optimization
+            height={300}  // Provide width and height for optimization
           />
           <div className={styles.projectInfo}>
             <h3>Pizza Website</h3>
@@ -72,10 +83,12 @@ export default function Projects() {
 
         {/* Project 6 - My Resume */}
         <div className={styles.projectCard}>
-          <img 
+          <Image 
             src="/my-resume.jpg" 
             alt="My Resume" 
             className={styles.projectImage} 
+            width={500}   // Provide width and height for optimization
+            height={300}  // Provide width and height for optimization
           />
           <div className={styles.projectInfo}>
             <h3>My Resume</h3>
