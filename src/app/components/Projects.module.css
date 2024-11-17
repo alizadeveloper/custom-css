@@ -1,4 +1,3 @@
-/* Projects.module.css */
 .projects {
   padding: 80px 20px;
   text-align: center;
@@ -35,8 +34,8 @@
 
 .projectImage {
   width: 100%;
-  height: 250px; /* Increased height to show bigger images */
-  object-fit: cover; /* Crop image to fit the container */
+  height: 250px; /* Fixed height */
+  object-fit: contain; /* Ensure full image visibility */
   border-radius: 10px;
   margin-bottom: 15px; /* Space between image and text */
 }
@@ -67,5 +66,9 @@
 
   .projectInfo p {
     font-size: 1.1em;
+  }
+
+  .projectImage {
+    height: 200px; /* Adjust image height for mobile */
   }
 }
